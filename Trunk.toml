@@ -1,0 +1,11 @@
+[serve]
+port = 3000
+open = true
+
+[build]
+dist = "build"
+
+## use this line on linux
+#target = "frontend/index.html"
+# use this line on windows
+target = "frontend\\index.html"
